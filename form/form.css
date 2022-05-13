@@ -1,0 +1,55 @@
+body {
+
+    background-color: rgb(226, 218, 206);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#logo {
+    padding-left: 20px;
+}
+
+.btn-group {
+    padding-right: 20px;
+}
+
+.btn-group a {
+    text-decoration: none;
+    color: rgb(247, 242, 242);
+}
+
+.gender {
+    font-size: 20px;
+}
+
+#submit {
+    background-color: green;
+    border: none;
+    color: rgb(247, 242, 242);
+    margin-left: 50%;
+}
+
+.card-form {
+
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+}
+
+a {
+    color: rgb(219, 122, 57);
+}
+
+a:hover {
+    color: rgb(53, 25, 5)
+}
+
+a:visited {
+    color: black;
+}
+
+h1 {
+    padding-top: 70px;
+    text-align: center;
+    font-weight: 600;
+}

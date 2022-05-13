@@ -1,0 +1,44 @@
+/* Feyza Alnıaçık */
+/* Css yardımı:Elif Nur Karagöz */
+body {
+    text-align: center;
+    background-color: #455A64;
+}
+
+div {
+    background-color: #90A4AE;
+    width: 1200px;
+    height: 200px;
+}
+
+.anadiv {
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+.kutu>h1 {
+    padding-top: 100px !important;
+}
+
+button {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    background: #E1BEE7;
+    border: none;
+    color: #fff;
+}
+
+button:hover {
+    background: #CE93D8;
+    color: #000;
+}
+
+button:disabled {
+    background: #95a5a6;
+}
+
+#durum {
+    font-size: 3em;
+}

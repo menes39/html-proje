@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>TEST</title>
+    <link href="sevvaltest.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="sevvaltest.js"></script>
+
+</head>
+
+
+<body>
+    <h1>Hazırsanız Başlayalım!</h1>
+    <form id="quiz" name="quiz">
+
+
+
+        <p class="questions0">1. "'Beni öldürmeyen acı güçlendirir" hangi ünlü düşünürün sözüdür?</p>
+
+        <input type="radio" id="mc" name="question0" value="dogru"> Nietzsche <br>
+        <input type="radio" id="mc" name="question0" value="yanlis"> Marx<br>
+        <input type="radio" id="mc" name="question0" value="yanlis"> Freud <br>
+
+
+        <p class="questions1"> 2. "Açlık" kitabının yazarı ünlü romancı kimdir?</p>
+
+        <input type="radio" id="mc" name="question1" value="yanlis"> Gabriel Garcia Marquez <br>
+        <input type="radio" id="mc" name="question1" value="yanlis"> Jose Saramago<br>
+        <input type="radio" id="mc" name="question1" value="dogru"> Knut Hamsun <br>
+
+        <p class="questions2"> 3. "AK-47" olarak da bilinen silahı kim bulmuştur? </p>
+
+        <input type="radio" id="mc" name="question2" value="dogru"> Mikhail Kalashnikov<br>
+        <input type="radio" id="mc" name="question2" value="yanlis"> Mihail Gorbaçov<br>
+        <input type="radio" id="mc" name="question2" value="yanlis"> Svetoslav Todorov<br>
+
+        <p class="questions3"> 4. "Aspirin" ilk kez hangi yılda satışa çıkmıştır?</p>
+
+        <input type="radio" id="mc" name="question3" value="dogru"> 1899<br>
+        <input type="radio" id="mc" name="question3" value="yanlis"> 1937 <br>
+        <input type="radio" id="mc" name="question3" value="yanlis"> 1915<br>
+
+        <p class="questions4"> 5. "Calamity Jane" karakteri hangi çizgi romanda geçer? </p>
+
+        <input type="radio" id="mc" name="question4" value="yanlis"> Mister No<br>
+        <input type="radio" id="mc" name="question4" value="yanlis"> Tenten'in Maceraları <br>
+        <input type="radio" id="mc" name="question4" value="dogru"> Red Kit <br>
+
+
+        <p class="questions5"> 6. "Davut Yıldızı" hangi dinin sembolüdür?</p>
+
+        <input type="radio" id="mc" name="question5" value="dogru"> Musevilik <br>
+        <input type="radio" id="mc" name="question5" value="yanlis"> Budizm<br>
+        <input type="radio" id="mc" name="question5" value="yanlis"> Hristiyanlık<br>
+
+
+        <p class="questions6"> 7. 24 yaşında hayatını kaybeden James Dean'in ölüm sebebi nedir? </p>
+
+        <input type="radio" id="mc" name="question6" value="yanlis"> Kalp Krizi<br>
+        <input type="radio" id="mc" name="question6" value="dogru"> Trafik Kazası<br>
+        <input type="radio" id="mc" name="question6" value="yanlis"> Suikast <br>
+
+        <p class="questions7"> 8. 4 hafta kaç gün eder? </p>
+
+        <input type="radio" id="mc" name="question7" value="yanlis">28 <br>
+        <input type="radio" id="mc" name="question7" value="dogru">25 <br>
+        <input type="radio" id="mc" name="question7" value="yanlis"> 16 <br>
+
+        <p class="questions8"> 9. 50 Amerikan Doları'nın üzerinde kimin resmi bulunur? </p>
+
+        <input type="radio" id="mc" name="question8" value="yanlis"> Alexander Hamilton <br>
+        <input type="radio" id="mc" name="question8" value="dogru"> Ulysses S. Grant <br>
+        <input type="radio" id="mc" name="question8" value="yanlis"> Thomas Jefferson <br>
+
+        <p class="questions9"> 10. AB standartlarına göre IBAN numarasında en fazla kaç adet rakam olabilir? </p>
+
+        <input type="radio" id="mc" name="question9" value="yanlis"> 22<br>
+        <input type="radio" id="mc" name="question9" value="dogru"> 34 <br>
+        <input type="radio" id="mc" name="question9" value="yanlis"> 16 <br>
+
+
+        <input id="button" type="button" value="Skorumu göster" onclick="check();">
+
+
+
+    </form>
+
+    <div id="after_submit">
+        <p id="number_correct"></p>
+        <p id="message"></p>
+        <img id="picture">
+    </div>
+
+</html>
+
+</body>

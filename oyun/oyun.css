@@ -1,0 +1,76 @@
+
+
+.menü {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#logo {
+    padding-left: 20px;
+}
+
+.btn-group {
+    padding-right: 20px;
+}
+
+.btn-group a {
+    text-decoration: none;
+    color: rgb(247, 242, 242);
+    color: black;
+}
+
+h1 {
+    margin: 30px;
+    color: rgb(2, 9, 29);
+
+}
+
+#taskagıtmakass {
+    width: 415px;
+    height: 280px;
+}
+
+#sayıtahminn {
+    width: 415px;
+    height: 280px;
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+#farklı {
+    width: 415px;
+    height: 380px;
+}
+
+#bird {
+    width: 415px;
+    height: 380px;
+}
+
+#adam {
+    width: 415px;
+    height: 355px;
+}
+
+#mat {
+    width: 415px;
+    height: 380px;
+}
+
+#sayıtut {
+    width: 415px;
+    height: 380px;
+}
+
+#pingpong {
+
+    width: 415px;
+    height: 300px;
+
+}

@@ -1,0 +1,316 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>OYUNLAR</title>
+    <link rel="stylesheet" href="oyun.css">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/album/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="menü">
+        <!-- navbar bootstrap ile oluşturuldu bg-dark background-dark navbar-dark yazıların beyaz olmasını sağlar içerikler ortalanır ve menünün scroll bar aşağıya kaydırıldıkça yukarıda kalmasını sağlarız. -->
+        <nav class="navbar bg-dark navbar-dark navbar-expand-sm justify-content-center fixed-top">
+            <a href="#" id="logo" class="navbar-brand">LOGO</a>
+            <!-- sıkıştırılmış hamburger menünün oluşturulma kodları data target ile id aynı olmalıdır ki id içerisindeki ul listesinin açılır kapanır olmasını sağlayabilsin.  -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ilişki">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- navbarın oluşturulması listelendirilmesi -->
+            <div class="collapse navbar-collapse" id="ilişki">
+
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a href="/proje/anasayfa/anasayfa.html" class="nav-link" target="_blank">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/proje/HABERLER/Haberler.html" class="nav-link" target="_blank">Haberler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/proje/anasayfa/günlükyaşam/Günlükyaşam.html" class="nav-link" target="_blank">Günlük
+                            Yaşam</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/proje/test/testsayfa.html" class="nav-link" target="_blank">Test</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/proje/oyun/oyun.html" class="nav-link" target="_blank">Oyun</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/proje/sözlük/sözlük.html" class="nav-link" target="_blank">Sözlük</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- üye ol ve üye girişi butonlarının navbara eklenmesi ve oluşturulması renk ayarlamaları tip belirtme üye ol butonuna üye form html sayfasının aktarımı. -->
+
+            <!-- class= btn-group Elif Nur KARAGÖZ -->
+            <div class="btn-group">
+                <button class="btn btn-light" type="button"><a href="#">Üye Girişi</a></button>
+                <!-- # yerine login sayfası eklenecek. -->
+                <button class="btn btn-success" type="button"><a href="form.html" target="_blank">Üye
+                        Ol</a></button>
+            </div>
+        </nav>
+
+
+    </div>
+
+    <main role="main">
+
+        <section class="jumbotron pt-5 text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">OYUNLAR</h1>
+            </div>
+        </section>
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="oyunimg/2048.PNG" alt="Yüklenemedi" title="2048">
+                            <div class="card-body">
+                                <p class="card-text">Klavyenizdeki yön tuşlarını kullanarak kareleri dört yöne hareket
+                                    ettirebilirsiniz. Eğer aynı değere sahip iki kare üst üste gelirse birleşerek iki
+                                    katı değerdeki bir rakama dönüşürler.Toplanarak giden bu oyunda 2048 sayısına ulaşan
+                                    oyuncu oyunu
+                                    kazanır. </p>
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <a href="projeoyunlar/2048/2048/dist/index.html" target="_blank"> <small
+                                            class="text-muted">2048 için tıklayınız.</small></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="oyunimg/aynılarınıbul.PNG" alt="Yüklenemedi"
+                                title="Aynılarını Bul">
+                            <div class="card-body">
+                                <p class="card-text">Kartları açarak çıkan resmin çiftini aramalısınız.Açılan
+                                    kartları hafızanızda
+                                    tutun ve aynısını bulmaya çalışın.Hareketinizi ve kaç
+                                    dakikadır oynadığınızı kontrol etmeyi unutmayınız. Aynılarını Bul,
+                                    Akılda tutma ile hafıza
+                                    yeteneklerimizi geliştiren bir zeka oyunudur.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <a href="projeoyunlar/hafıza oyunu/Hafıza Oyunu/index.html" target="_blank"><small
+                                            class="text-muted">Aynılarını Bul için tıklayınız.</small></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img id="farklı" class="card-img-top" src="oyunimg/farklı olanı seç.PNG" alt="Yüklenemedi"
+                                title="Farklı Olanı Seç">
+                            <div class="card-body">
+                                <p class="card-text">Oyuncu ekranda bulunan 4 adet kareden rengi farklı olanı
+                                    seçer.Rengi farklı olan kareyi seçerek devam ettiğiniz bu oyunda her doğru
+                                    seçiminizde skorunuz artmaktadır. <br><br> </p>
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <a href="projeoyunlar/renkbulma/renk.html" target="_blank"><small
+                                            class="text-muted">Farklı olanı
+                                            seçmek için tıklayınız.</small></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img id="sayıtahminn" class="card-img-top" src="oyunimg/sayıtahmin.PNG" alt="Yüklenemedi"
+                                title="Sayı tahmin">
+                            <div class="card-body">
+                                <p class="card-text">Ekranda ortada bulunan panelde çok kısa saniyelerde bulunan yazıyı
+                                    doğru tahmin eden oyuncu oyunu kazanır. Toplamda 3 hata hakkınız
+                                    bulunmaktadır.Seviye ve sayıların haneleri siz ilerledikçe artarak devam etmektedir.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <a href="projeoyunlar/Sayı Hafıza/Sayı Hafıza/index.html" target="_blank"><small
+                                            class="text-muted">Hafıza Oyunu: Sayı Tahmin için tıklayınız.</small></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="oyunimg/Piyona.PNG" alt="Yüklenemedi" title="Piyona">
+                            <div class="card-body">
+                                <p class="card-text">Hafıza Bloklarıyla Piyona oyununda, <br> blokların yanma sırasını
+                                    takip
+                                    ederek aynı melodiyi elde etmelisiniz. <br> Seviyeniz ilerledikçe karmaşıklaşan bu
+                                    oyunda
+                                    güzel melodiler elde edeceksiniz.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <a href="projeoyunlar/piyano hafıza/index.html" target="_blank"><small
+                                            class="text-muted">Hafıza
+                                            Oyunu: Hafıza Bloklarıyla Piyona için tıklayınız.</small></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img id="taskagıtmakass" class="card-img-top" src="oyunimg/taskagıtmakas.PNG"
+                                alt="Yüklenemedi" title="Taş Kağıt Makas">
+                            <div class="card-body">
+                                <p class="card-text">Taş-kâğıt-makas,siz ve bilgisayar arasında ve üç durumdan birinin
+                                    seçilmesiyle oynanan bir sanal el oyunudur.Taş, makası kırarak yener.Makas, kağıdı
+                                    keserek yener.Kağıt, taşı sararak yener.
+                                    Eğer oyuncular aynı durumu seçerse oyun berabere biter.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <a href="projeoyunlar/taşkağıtmakas/taşkağıtmakas/index.html" target="_blank"><small
+                                            class="text-muted">Taş & Kağıt & Makas için tıklayınız.</small></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img id="bird" class="card-img-top" src="oyunimg/Flappy.PNG" alt="Yüklenemedi"
+                                title="Flappy Bird">
+                            <div class="card-body">
+                                <p class="card-text">Flappy Bird, tek kişilik bir oyundur.Kanat çırpan kuş her komutta
+                                    yükselir ve bariyerlerin arasından geçmeye çalışır. Bariyerlere veya yere değen kuş
+                                    ölür ve oyun yeniden başlar.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <a href="projeoyunlar/flappybird/index.html" target="_blank"><small
+                                            class="text-muted">FLappy Bird
+                                            oyunu için tıklayınız.</small></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img id="adam" class="card-img-top" src="oyunimg/adamasmaca.PNG" alt="Yüklenemedi"
+                                title="Adam Asma Oyunu">
+                            <div class="card-body">
+                                <p class="card-text">Adam asmaca, iki veya daha fazla oyuncu ile oynanabilen oyunudur.
+                                    Bir oyuncu bir ifadeyi ya da cümleyi sırayla harf veya
+                                    önererek tahmin etmeye çalışır. Oyuncunun her bilmediği harf veya rakam için
+                                    ise darağacının bir parçası çizilir..</p>
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <a href="projeoyunlar/AdamAsmaca/AdamAsmaca.html" target="_blank"><small
+                                            class="text-muted"> Adam
+                                            Asmaca Oyunu için tıklayanız.</small></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img id="mat" class="card-img-top" src="oyunimg/matematik.PNG" alt="Yüklenemedi">
+                            <div class="card-body">
+                                <p class="card-text">Bilgisayarın oyuncuya sunduğu 4 Aritmetik İşlemin çözümünü yaparak
+                                    sonucu bulmamızı ve matematiksel çözüm yeteneğimizin hızlı gelişmesini sağlar.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <a href="projeoyunlar/MathOyun/mathoyun.html" target="_blank"><small
+                                            class="text-muted"> Matematik
+                                            oyunu için tıklayınız.</small></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img id="sayıtut" class="card-img-top" src="oyunimg/aklındansayıtut.PNG" alt="Yüklenemedi">
+                            <div class="card-body">
+                                <p class="card-text">Aklınızdan tuttuğunuz sayıyı bilgisayar tahmin etmeye
+                                    çalışır.Bilgisayarın kaç tahmin sonucunda aklınızdan tuttuğunuz sayıyı
+                                    görebilirsiniz.İyi oyunlar!</p>
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <a href="projeoyunlar/Sayı Tahmin/SayiTahmin.html" target="_blank"><small
+                                            class="text-muted">Aklından Sayı Tut
+                                            oyunu için tıklayınız.</small></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div id="zar" class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="oyunimg/zar.PNG" alt="Yüklenemedi">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Blanditiis, minima provident quibusdam nisi error quisquam?Lorem, ipsum dolor sit
+                                    amet consectetur adipisicing elit. Accusantium, illo?</p>
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <a href="projeoyunlar/ZAR ATMA/zaratma.html" target="_blank"><small
+                                            class="text-muted">Zar Atma
+                                            oyunu için tıklayınız.</small></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img id="pingpong" class="card-img-top" src="oyunimg/pingpong.PNG" alt="Yüklenemedi">
+                            <div class="card-body">
+                                <p class="card-text">Pong oyunu, iki oyunculu, masa tenisi temalı bir video oyunudur.
+                                    Oyun iki kürek ve hareketli bir top içerir. Oyuncular, kürekleri yukarı veya aşağı
+                                    yönde hareket ettirmeli ve topu duvara çarpmaktan kurtarmalıdır. Top duvara
+                                    çarparsa, bu başka bir oyuncu için bir puandır.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <a href="projeoyunlar/pingpong/pingpong.html" target="_blank"><small
+                                            class="text-muted">Ping Pong
+                                            oyunu için tıklayınız.</small></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script>
+        window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')
+    </script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

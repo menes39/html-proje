@@ -1,0 +1,76 @@
+/* Ümit Can Kızılcan*/
+/* Css yardımı:Elif Nur Karagöz */
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+body {
+
+    background-color: rgb(180, 202, 207);
+    font-family: "Open Sans", sans-serif;
+}
+
+#game {
+
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#game div {
+    width: 350px;
+    height: 200px;
+    float: left;
+    border: 2px solid rgb(180, 202, 207);
+
+}
+
+/* Ümit Can Kızılcan */
+/* elif nur karagöz */
+
+.container {
+
+    color: rgb(30, 46, 2);
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.haki {
+    background: #142001;
+
+}
+
+.mavi {
+    background: #152938;
+}
+
+/* elif nur karagöz */
+/* Ümit Can Kızılcan */
+
+.sari {
+    background: #e2de64;
+
+}
+
+.yesil {
+    background: #86e264;
+}
+
+#puan {
+    font-weight: 800;
+    font-size: 20px;
+    padding-left: 300px;
+    padding-top: 20px;
+    color: rgb(30, 46, 2);
+}
+
+/* Ümit Can Kızılcan */

@@ -1,0 +1,68 @@
+/* Feyza Alnıaçık */
+/* Css yardımı:Elif Nur Karagöz */
+
+body {
+    color: #fff;
+    background: #00695C;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#oyun-panel {
+    height: 480px;
+    width: 450px;
+    color: #3E2723;
+    background: #FFF3E0;
+    padding: 16px;
+    text-align: center;
+    margin: auto;
+    margin-top: 120px;
+}
+
+h1 {
+    margin: 0 0 16px 0;
+    margin-top: 40px;
+    border: solid 1px #3E2723;
+    padding: 5px;
+    font-weight: 300;
+    margin-bottom: 120px;
+}
+
+span {
+    font-size: 225%;
+    padding: 10px;
+}
+
+#sonuc {
+    width: 70px;
+    height: 35px;
+}
+
+#cevapla {
+    margin-top: 10px;
+    padding: 5px;
+    border: none;
+    width: 120px;
+    background: #00695C;
+    color: #fff;
+}
+
+#cevapla:hover {
+    background: #8BC34A;
+}
+
+#dogru,
+#yanlis {
+    font-size: 150%;
+    margin-top: 10px;
+    padding: 10px;
+    display: inline-block;
+    width: 45px;
+}
+
+#dogru {
+    background: #4CAF50;
+}
+
+#yanlis {
+    background: #D32F2F;
+}

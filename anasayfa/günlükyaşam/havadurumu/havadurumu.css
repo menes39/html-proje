@@ -1,0 +1,79 @@
+/* Deniz KARTAL */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* Elif Nur KARAGÖZ */
+    background-image: url('havadurumubg.gif');
+    background-size: 100%;
+    /*  */
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.aaae {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+
+}
+
+.searh {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 2.5em;
+    width: 2.5em;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+input.weather-search {
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 24px;
+    background: #212b2cbe;
+    color: white;
+    font-family: inherit;
+    font-size: 120%;
+}
+
+button:hover {
+    background: #7c7c7c6b;
+}
+
+h1.temp {
+    margin: 0;
+}
+
+.description {
+    text-transform: capitalize;
+}
+
+.weatherflex {
+    display: flex;
+    align-items: center;
+}
+
+/* Elif Nur Karagöz */
+.aaae {
+    background-image: url('https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHdlYXRoZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+}

@@ -1,0 +1,245 @@
+/* Merve Gökçe + Elif Nur Karagöz */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+
+}
+
+
+.menü {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#logo {
+    padding-left: 20px;
+}
+
+.btn-group {
+    padding-right: 20px;
+}
+
+.btn-group a {
+    text-decoration: none;
+    color: rgb(247, 242, 242);
+    color: black;
+}
+
+.sectionBody {
+    width: 100%;
+    display: flex;
+
+}
+
+#mainCaption {
+    height: 700px;
+    background-image: url(Sağlıklıyaşamimg/gif.gif);
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    background-size: cover;
+
+}
+
+#mainCaption h1 {
+    text-align: center;
+    margin: 100px;
+    font-size: 90px;
+}
+
+.sectionBody.container {
+    justify-content: space-between;
+    /*içerikler arasındakibosuğun olmamasını istiyoruz.*/
+
+}
+
+.sectionHeader {
+    background: rgb(63, 46, 24);
+    border-bottom: 6px solid rgb(63, 46, 24);
+    height: 60px;
+    color: #f6fafa;
+    line-height: 60px;
+    font-size: 24px;
+    padding: 5px 40px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    width: 100%;
+
+}
+
+.sectionArea {
+    padding: 80px 0px;
+
+}
+
+.zoom {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+
+.zoom img {
+    display: block;
+    /*iteme inline block deyip buna block dedik çünkü zoom özelliğini de kapsasın istiyoruz*/
+    width: 100%;
+    height: auto;
+    transition: all .5s ease;
+
+}
+
+.item .itemText {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #004D40;
+}
+
+.item:hover .zoom img {
+    transform: scale(1.25);
+}
+
+h3 {
+    font-size: 16px;
+    color: wheat;
+    transition: all .5s ease;
+
+}
+
+.item:hover h3 {
+    color: rgb(247, 242, 242);
+    color: black;
+}
+
+.item:hover .itemText {
+    background: darkgray;
+    color: #19334d;
+    transition: all .5s ease;
+}
+
+.itemText {
+    background-color: #004D40;
+}
+
+.itemText p {
+    margin: 20px 0;
+}
+
+.container1 {
+    width: 100%;
+    background-color: #bcbe9b;
+    padding: 20px;
+    flex-grow: 1;
+    /*sütun uzunlukları bırbırıne esit olsun*/
+
+
+}
+
+.container1 h1 {
+    color: rgb(3, 43, 12);
+}
+
+.container2 {
+    background-color: #84a8a5;
+    width: 50%;
+    padding: 20px;
+    flex-grow: 1;
+    /*sütun uzunlukları bırbırıne esit olsun*/
+
+}
+
+.sectionTop {
+    text-align: center;
+
+}
+
+.container3 {
+    background-color: #e7cead;
+    width: 50%;
+    padding: 20px;
+    flex-grow: 1;
+    /*sütun uzunlukları bırbırıne esit olsun*/
+
+}
+
+.container3 h1 {
+    color: rgb(63, 37, 4);
+}
+
+.container4 {
+    background-color: #797979;
+    width: 50%;
+    padding: 20px;
+
+    flex-grow: 1;
+    /*sütun uzunlukları bırbırıne esit olsun*/
+}
+
+.card1 p {
+    text-align: justify;
+    font-weight: bold;
+}
+
+.card1 a:hover {
+    color: white;
+    font-weight: bold;
+
+}
+
+.card1 a:active {
+    color: rgb(6, 20, 39);
+}
+
+.card1 a {
+    font-weight: bold;
+    color: rgb(63, 52, 2);
+}
+
+
+h1 {
+    padding-top: 70px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: rgb(202, 230, 202);
+    font-size: 80px !important;
+}
+
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #497252;
+    color: rgb(245, 235, 235);
+    font-weight: bold;
+    border-radius: 4px;
+
+}
+
+
+input[type=text]:focus {
+    border: 3px solid #555;
+    background-color: rgb(150, 187, 152);
+    width: 100%;
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+    background-color: #023d02;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}

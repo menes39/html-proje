@@ -1,0 +1,59 @@
+/* Elif Nur Karagöz */
+body {
+    background-color: #F9FBE7;
+}
+
+.menü {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#logo {
+    padding-left: 20px;
+}
+
+.btn-group {
+    padding-right: 20px;
+}
+
+.btn-group a {
+    text-decoration: none;
+    color: rgb(247, 242, 242);
+    color: black;
+}
+
+header {
+    margin-top: 40px;
+}
+
+.container {
+    margin-top: 55px;
+}
+
+h1 {
+    color: #F57F17;
+}
+
+p {
+    color: #F9A825;
+}
+
+h2 {
+    color: #3E2723;
+}
+
+span {
+    color: #6D4C41;
+}
+
+.test img {
+    border-radius: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+    font-size: x-large;
+}

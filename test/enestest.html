@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Çözemezsin ki !</title>
+    <link href="enestest.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="enestest.js"></script>
+
+</head>
+
+
+<body>
+    <h1>Asla Tüm soruları doğru yapamayacaksın xd (Doğru Cevaplar gösterilmeyecektir)</h1>
+
+
+    <form id="quiz" name="quiz">
+
+
+        <p class="questions">Cevaplamanız istenen soru adedini Rakam ile giriniz.</p>
+        <input id="textbox" type="text" name="question0">
+
+        <p class="questions">"Tantuni" kelimesinin anlamı nedir?</p>
+
+        <input type="radio" id="mc" name="question1" value="yanlis"> Mersin büfteğinin diğer adı<br>
+        <input type="radio" id="mc" name="question1" value="yanlis"> Tavuk kokoreç<br>
+        <input type="radio" id="mc" name="question1" value="yanlis"> Kuzu Böbreğinin kavrulmasıyla oluşan yemek
+        çeşidi<br>
+        <input type="radio" id="mc" name="question1" value="dogru"> Sintuni x 1/Costuni<br>
+
+        <p class="questions">Ankaralı Namık (Namık Uğurlu) Nerelidir</p>
+
+        <input type="radio" id="mc" name="question2" value="dogru"> Çorum<br>
+        <input type="radio" id="mc" name="question2" value="yanlis"> Tokat<br>
+        <input type="radio" id="mc" name="question2" value="yanlis"> Aksaray<br>
+        <input type="radio" id="mc" name="question2" value="yanlis"> Ankara<br>
+
+        <p class="questions">Brezilya'nın Başkenti neresidir?</p>
+
+        <input type="radio" id="mc" name="question3" value="dogru"> Brasil<br>
+        <input type="radio" id="mc" name="question3" value="yanlis"> Rio de Janerio<br>
+        <input type="radio" id="mc" name="question3" value="yanlis"> Alex de Souza<br>
+        <input type="radio" id="mc" name="question3" value="yanlis"> Santa de lus<br>
+
+        <p class="questions">Hangi canlı ölümsüzdür?</p>
+
+        <input type="radio" id="mc" name="question4" value="yanlis"> Chroococcidiopsis <br>
+        <input type="radio" id="mc" name="question4" value="dogru"> Turritopsis dohrnii<br>
+        <input type="radio" id="mc" name="question4" value="yanlis"> Omicron<br>
+        <input type="radio" id="mc" name="question4" value="yanlis"> Pikornavirüs<br>
+
+        <p class="questions">Döner + Ayran 5,50 TL, Döner ayrandan 5 Tl fazla ise Ayran Kaç paradır ?
+        </p>
+
+        <input type="radio" id="mc" name="question5" value="yanlis"> 75 Krş<br>
+        <input type="radio" id="mc" name="question5" value="yanlis"> 500 Krş<br>
+        <input type="radio" id="mc" name="question5" value="yanlis"> 50 Krş<br>
+        <input type="radio" id="mc" name="question5" value="dogru"> 25 Krş<br>
+
+        <p class="questions">Hangisi Doğrudur?</p>
+
+        <input type="radio" id="mc" name="question6" value="yanlis"> Kurbağalar siğile sebep olur<br>
+        <input type="radio" id="mc" name="question6" value="yanlis"> Güneş sarı renktir<br>
+        <input type="radio" id="mc" name="question6" value="dogru"> Damarlarımız kırmızı renktir<br>
+        <input type="radio" id="mc" name="question6" value="yanlis"> Parmak kıtlatmak zararlıdır<br>
+
+        <p class="questions">Dünya'nın "Kütlesinde" suyun oranı kaçtır?</p>
+
+        <input type="radio" id="mc" name="question7" value="dogru"> % 0,02<br>
+        <input type="radio" id="mc" name="question7" value="yanlis"> % 70,1<br>
+        <input type="radio" id="mc" name="question7" value="yanlis"> % 44<br>
+        <input type="radio" id="mc" name="question7" value="yanlis"> % 63<br>
+
+        <p class="questions"> "9 - 51 / 3 + 9" Kaçtır ? </p>
+
+        <input type="radio" id="mc" name="question8" value="yanlis"> 4,75 <br>
+        <input type="radio" id="mc" name="question8" value="yanlis"> 17 <br>
+        <input type="radio" id="mc" name="question8" value="dogru"> 1 <br>
+        <input type="radio" id="mc" name="question8" value="yanlis"> 3 <br>
+
+
+        <input id="button" type="button" value="Skorumu göster" onclick="check();">
+
+
+
+    </form>
+
+    <div id="after_submit">
+        <p id="number_correct"></p>
+        <p id="message"></p>
+        <img id="picture">
+    </div>
+
+</html>
+
+</body>

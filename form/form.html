@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="form.css">
+    <title> Üyelik Formu </title>
+
+
+</head>
+
+<body>
+
+    <!-- Navbar : Elif Nur KARAGÖZ  -->
+    <div class="menü">
+        <!-- navbar bootstrap ile oluşturuldu bg-dark background-dark navbar-dark yazıların beyaz olmasını sağlar içerikler ortalanır ve menünün scroll bar aşağıya kaydırıldıkça yukarıda kalmasını sağlarız. -->
+        <nav class="navbar bg-dark navbar-dark navbar-expand-sm justify-content-center fixed-top">
+            <a href="#" id="logo" class="navbar-brand">LOGO</a>
+            <!-- sıkıştırılmış hamburger menünün oluşturulma kodları data target ile id aynı olmalıdır ki id içerisindeki ul listesinin açılır kapanır olmasını sağlayabilsin.  -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ilişki">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- navbarın oluşturulması listelendirilmesi -->
+            <div class="collapse navbar-collapse" id="ilişki">
+
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Haberler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Günlük Yaşam</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Test</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Oyun</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Sözlük</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- üye ol ve üye girişi butonlarının navbara eklenmesi ve oluşturulması renk ayarlamaları tip belirtme üye ol butonuna üye form html sayfasının aktarımı. -->
+
+            <!-- class= btn-group Elif Nur KARAGÖZ -->
+            <div class="btn-group">
+                <button class="btn btn-light" type="button"><a href="#">Üye Girişi</a></button>
+                <!-- # yerine login sayfası eklenecek. -->
+                <button class="btn btn-success" type="button"><a href="form.html" target="_blank">Üye Ol</a></button>
+            </div>
+        </nav>
+
+
+    </div>
+    <br>
+    <!-- Üyelik Formu Elif Nur KARAGÖZ -->
+    <h1>
+        Üyelik Formu
+    </h1>
+    <br>
+    <div class="card-form">
+        <form action="https://wwww.google.com">
+            <!-- google değil kendi sitemize yönlendiricez. -->
+            <!-- Kullanıcının adının alındığı bölüm placeholder ile kutunun içerisinde silik bir şekilde isminizi giriniz yazılmasını sağlarız. -->
+            <div class="form-group">
+                <label for="name" id="name">İsminiz:</label>
+                <input type="text" id="name" class="form-control" placeholder="İsminizi giriniz.">
+            </div>
+            <br>
+            <!-- Kullanıcının soyadının alındığı bölüm placeholder ile kutunun içerisinde silik bir şekilde soyisminizi giriniz yazılmasını sağlarız. -->
+            <div class="form-group">
+                <label for="surname" id="surname">Soyisminiz:</label>
+                <input type="text" id="surname" class="form-control" placeholder="Soyisminizi giriniz.">
+
+            </div>
+            <br>
+            <!-- Kullanıcının emailinin alındığı bölüm placeholder ile kutunun içerisinde silik bir şekilde emailinizi giriniz yazılmasını sağlarız. -->
+            <!-- text-muted özelliği ile kullanıcıya silik bir uyarı niteliğinde alt metin sağlarız. -->
+
+            <div class="form-group ">
+                <label for="email">Email adresiniz:</label>
+                <input type="email" id="email" class="form-control" placeholder="Email adresinizi giriniz.">
+                <small class="form-text text-muted">Lütfen geçerli bir email adresi giriniz.</small>
+            </div>
+            <br>
+            <!-- Kullanıcının şifresinin alındığı bölüm placeholder ile kutunun içerisinde silik bir şekilde isminizi giriniz yazılmasını sağlarız. -->
+
+            <div class="form-group">
+
+                <label for="password" id="password">Şifreniz:</label>
+                <input type="password" id="password" class="form-control" placeholder="Şifrenizi giriniz.">
+
+            </div>
+            <br>
+
+            <div class="form-group">
+                <label for="city">Ülke seçiniz:</label>
+                <select name="city" id="city" class="form-control">
+                    <option value="select" placeholder="Ülke seçiniz:"></option>
+                    <option value="germany"> Almanya</option>
+                    <option value="USA">Amerika</option>
+                    <option value="turkey">Türkiye</option>
+                    <option value="holland">Hollanda</option>
+                    <option value="france">Fransa</option>
+                    <option value="england">İngiltere</option>
+                    <option value="spain">İspanya</option>
+                    <option value="italy">İtalya</option>
+                    <option value="russia">Rusya</option>
+                    <option value="belgium">Belçika</option>
+                    <option value="portugal">Portekiz</option>
+                </select>
+
+            </div>
+            <br>
+            <div>
+                <!-- legend ile radio butonun üzerine ne hakkında olduğu konusunda bilgilendirme yaptık -->
+                <legend class="boyut">Cinsiyetiniz:</legend>
+                <!-- radio buton oluşturarak cinsiyetler alındı eğer nameler aynı olmazsa radio butonda birden fazla seçim yapılır bu yüzden nameler aynı olmak zorundadır. -->
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="g1" name="gender" class="custom-control-input">
+                    <label class="custom-control-label" for="g1">Erkek</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="g2" name="gender" class="custom-control-input">
+                    <label class="custom-control-label" for="g2">Kadın</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="g3" name="gender" class="custom-control-input">
+                    <label class="custom-control-label" for="g3">Belirtmek İstemiyorum</label>
+                </div>
+            </div>
+            <br>
+            <div class="form-group">
+                <legend class="boyut">Aydınlatma Metni:</legend>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox"> <a href="ÜyelikSözleşmesi.html" target="_blank"> Üyelik Sözleşmesi</a>
+                        şartlarını okudum ve kabul ediyorum.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox"> Tarafımla pazarlama ve tanıtım amaçlı iletişime geçilmesine izin
+                        veriyorum.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox"> <a href="KVKK.html" target="_blank">KVKK</a> kapsamında Kişisel
+                        Verilerin Korunması ve
+                        İşlenmesi Şartlarını kabul ediyorum.
+                    </label>
+                </div>
+                <br>
+                <input id="submit" type="submit" value="ÜYE OL">
+            </div>
+
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <title>TEST</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+    <link rel="stylesheet" href="testsayfa.css">
+    <meta name="theme-color" content="#7952b3">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <!-- Elif Nur KARAGÖZ -->
+    <div class="menü">
+        <!-- navbar bootstrap ile oluşturuldu bg-dark background-dark navbar-dark yazıların beyaz olmasını sağlar içerikler ortalanır ve menünün scroll bar aşağıya kaydırıldıkça yukarıda kalmasını sağlarız. -->
+        <nav class="navbar bg-dark navbar-dark navbar-expand-sm justify-content-center fixed-top">
+            <a href="#" id="logo" class="navbar-brand">LOGO</a>
+            <!-- sıkıştırılmış hamburger menünün oluşturulma kodları data target ile id aynı olmalıdır ki id içerisindeki ul listesinin açılır kapanır olmasını sağlayabilsin.  -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ilişki">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- navbarın oluşturulması listelendirilmesi -->
+            <div class="collapse navbar-collapse" id="ilişki">
+
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a href="/proje/anasayfa/anasayfa.html" class="nav-link" target="_blank">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/proje/HABERLER/Haberler.html" class="nav-link" target="_blank">Haberler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/proje/anasayfa/günlükyaşam/Günlükyaşam.html" class="nav-link" target="_blank">Günlük
+                            Yaşam</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/proje/test/testsayfa.html" class="nav-link" target="_blank">Test</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/proje/oyun/oyun.html" class="nav-link" target="_blank">Oyun</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/proje/sözlük/sözlük.html" class="nav-link" target="_blank">Sözlük</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- üye ol ve üye girişi butonlarının navbara eklenmesi ve oluşturulması renk ayarlamaları tip belirtme üye ol butonuna üye form html sayfasının aktarımı. -->
+
+            <!-- class= btn-group Elif Nur KARAGÖZ -->
+            <div class="btn-group">
+                <button class="btn  btn-light" type="button"><a href="#">Üye Girişi</a></button>
+                <!-- # yerine login sayfası eklenecek. -->
+                <button class="btn btn-success" type="button"><a href="form.html" target="_blank">Üye
+                        Ol</a></button>
+            </div>
+        </nav>
+
+
+    </div>
+
+    <header>
+    </header>
+
+    <main>
+        <!-- Elif Nur KARAGÖZ -->
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="#FFF9C4" /></svg>
+
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Eğlenceli Testler.</h1>
+                            <p>Kafanızı dağıtmak istediğinizde girip eğlenebileceğiniz,hoş vakit geçirebileceğiniz bir
+                                alan yarattık.</p>
+                            <p><a class="btn btn-lg btn-warning"
+                                    href="https://onedio.com/haber/hayatinizda-daha-once-duymadiginiz-24-rastgele-eglenceli-ve-ilginc-bilgi-858215"
+                                    target="_blank">Eğlence</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="		#FFF9C4" /></svg>
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Kültürel Testler</h1>
+                            <p>Kendinizi sınamak istediğinizde uğramak isteyebileceğiniz bir alan!</p>
+                            <p><a class="btn btn-lg btn-warning"
+                                    href="https://onedio.com/haber/ogrendikten-sonra-entelektuellik-seviyenizi-arsa-cikaracaginiz-birbirinden-ilginc-kulturel-bilgiler-1004526"
+                                    target="_blank">Kültür</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="#FFF9C4" /></svg>
+
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1>Zeka Testleri.</h1>
+                            <p>Beyninizin sınırlarını mı zorlamak istiyorsunuz ? Teste geçin.</p>
+                            <p><a class="btn btn-lg btn-warning"
+                                    href="https://www.milliyet.com.tr/cocuk/bilmeceler/zeka-bilmeceleri/"
+                                    target="_blank">Zeka</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- header da sağa sola gitmek için -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+
+        <div class="container marketing">
+
+            <!-- Three columns -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="test">
+                        <img src="testimg/eğlence.png" alt="Resim bulunamadı">
+                        <h2>1.TEST</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis velit recusandae hic.</p>
+                        <p><a class="btn btn-warning" href="eliftest.html" target="_blank">Test gitmek için
+                                tıklayınız.&raquo;</a></p>
+                    </div>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <div class="test">
+                        <img src="testimg/kütlür.png" alt="Resim bulunamadı">
+                        <h2>2.TEST</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore.</p>
+                        <p><a class="btn btn-warning" href="mervetest.html" target="_blank">Teste gitmek için
+                                tıklayınız. &raquo;</a>
+                        </p>
+                    </div>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <div class="test">
+                        <img src="testimg/zeka.png" alt="Resim bulunamadı">
+                        <h2>3.TEST</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti odio dolores aut.</p>
+                        <p><a class="btn btn-warning" href="feyzatest.html" target="_blank">Teste gitmek için
+                                tıklayınız. &raquo;</a>
+                        </p>
+                    </div>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+
+
+            <!-- sağ sol içeriklerin oluşturulması-->
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Eğlence Testleri
+                    </h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt vel libero pariatur?
+                        Necessitatibus pariatur quidem quasi voluptatem, assumenda ex corrupti dolorem officia, fuga
+                        minima dolorum quae sapiente, fugit corporis cumque hic dignissimos ut dolor deleniti amet! Iure
+                        cum, error reprehenderit, officiis accusamus soluta omnis itaque minus molestiae alias eaque
+                        porro nostrum officia, aliquid nam? Veritatis esse accusantium non sunt! Aspernatur quis
+                        quibusdam soluta? Dolores eius officiis error sed porro tempore ut facilis, voluptatum
+                        dignissimos fugiat. Perspiciatis modi hic exercitationem corporis? Atque dolor veritatis cum
+                        cumque quos deserunt facere aliquam, provident animi! Commodi voluptate quo iste harum sit nam
+                        corrupti quidem.
+                    </p>
+                    <p><a href="enestest.html" target="_blank">Teste gitmek için tıklayınız.</a></p>
+
+                </div>
+                <div class="col-md-5">
+                    <img src="testimg/eğlenceli.png" alt="">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">Zeka Testleri</h2>
+                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis amet
+                        recusandae iste mollitia fuga eius ipsa sapiente, id repudiandae consectetur ab neque! Unde ea
+                        at magni commodi minima ut eveniet dicta molestiae in ipsum autem ex, doloribus blanditiis optio
+                        sequi fuga. Deserunt aliquid, ducimus architecto enim et maxime dolorum perspiciatis aperiam
+                        eveniet mollitia nobis, adipisci fugiat ipsa. Facere enim soluta doloribus, sit voluptatum,
+                        molestias consectetur culpa ullam ratione, assumenda maiores dolores quasi. Iure aliquam maxime
+                        dolor dolores error alias corporis atque ea asperiores molestiae reprehenderit repellendus
+                        natus, nostrum itaque similique praesentium? A, eius tenetur. Ut porro hic exercitationem animi
+                        necessitatibus.
+                    </p>
+                    <p><a href="furkantest.html" target="_blank">Teste gitmek için tıklayınız.</a></p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="testimg/zekatesti.png" alt="">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Genel Kültür Testleri
+                    </h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repellendus nam quo
+                        recusandae suscipit. Fugiat, provident doloremque. Libero sed illo corrupti non magni quod
+                        laudantium, voluptate atque culpa consequuntur pariatur consequatur ut nemo similique corporis
+                        obcaecati nulla, sit maiores aperiam eum dolorem aut vel adipisci minus! Suscipit inventore
+                        dicta earum pariatur vel culpa dolorum unde quod voluptatibus, minus, dolor aspernatur quae
+                        perspiciatis doloremque doloribus asperiores repellat quas amet quis at eius nisi nostrum? Saepe
+                        totam nobis veritatis labore reprehenderit culpa dicta reiciendis corrupti, aliquam ducimus, est
+                        repellendus? Explicabo vero quaerat earum optio nesciunt. Odio voluptates beatae eos delectus?
+                        Nesciunt, repellendus.
+                    </p>
+                    <p><a href="sevvaltest.html" target="_blank">Teste gitmek için tıklayınız.</a></p>
+                </div>
+                <div class="col-md-5">
+                    <img src="testimg/genelk.png" alt="">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <!-- içeriklerin sonu -->
+
+        </div><!-- /.container -->
+        <!-- Elif nur karagöz -->
+
+
+
+    </main>
+
+
+    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+/* Feyza Alnıaçık + Şevval Fıçıcı */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    margin-top: 75px;
+    background-color: rgb(226, 218, 206);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#logo {
+    padding-left: 20px;
+}
+
+.btn-group {
+    padding-right: 20px;
+}
+
+.btn-group a {
+    text-decoration: none;
+    color: rgb(247, 242, 242);
+    color: black;
+}
+
+
+
+.sag {
+    float: right;
+    width: 32%;
+    margin: 2px;
+    padding: 10px;
+}
+
+.sol {
+    /* content: '' !important;
+    display: table !important;
+    clear: both !important; */
+    width: 65%;
+    float: left;
+    margin: 2px;
+    padding: 10px;
+    padding-right: 0px;
+}
+
+.covid {
+    width: 998px;
+    height: 110px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.covidicerik {
+    background-color: white;
+    color: #011640;
+    margin: 2px;
+    padding: 5px;
+}
+
+#Covid {
+    width: 100%;
+
+
+}
+
+.ekonomi {
+    width: 998px;
+    height: 110px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ekonomiicerik1 {
+    background-color: white;
+    border: 2px solid #011640;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+#Ekonomi1 {
+    background-color: white;
+    color: #011640;
+    width: 200px;
+    height: 160px;
+    float: right;
+}
+
+.ekonomiicerik2 {
+    background-color: white;
+    border: 2px solid #011640;
+}
+
+#Ekonomi2 {
+    background-color: white;
+    color: #011640;
+    width: 200px;
+    height: 159px;
+    float: right;
+}
+
+.ekonomiicerik3 {
+    background-color: white;
+    border: 2px solid #011640;
+}
+
+#Ekonomi3 {
+    background-color: white !important;
+    color: #011640;
+    width: 200px;
+    height: 135px;
+    float: right;
+}
+
+h4 {
+    opacity: 0.7;
+}
+
+h5 {
+    opacity: 0.5;
+}
+
+.kultur-sanat {
+    background-color: #BF926B;
+    color: #011640;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#KulturSanat {
+    width: 998px;
+    height: 110px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#Kultursanat1 {
+    width: 500px;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 10px;
+    float: left;
+}
+
+#Kultursanat2 {
+    width: 500px;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 10px;
+    float: left;
+}
+
+.sondakika {
+    background-color: #73130A;
+    color: white;
+
+    text-align: center;
+    margin: 2px;
+    padding: 5px;
+}
+
+.sondkicerik {
+    background-color: white;
+    border: 2px solid #011640;
+    position: fixed;
+}
+
+.covidicerik a {
+    font-size: 30px;
+    color: blue;
+}

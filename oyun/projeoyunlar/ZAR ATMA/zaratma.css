@@ -1,0 +1,65 @@
+/* Css yardımı:Elif Nur Karagöz */
+/* Feyza Alnıaçık */
+
+/* zar atma oyunu css kodu */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #FFF9C4;
+}
+
+.panel {
+    margin: 5rem auto;
+    margin-top: 150px;
+    width: 50rem;
+    background-color: #FDD835;
+}
+
+.zarlar {
+    height: 30rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.zarlar img {
+    width: 40%;
+}
+
+.btn-panel {
+    text-align: center;
+    padding: 5rem;
+}
+
+#zarAt {
+    background-color: #F9A825;
+}
+
+/* CSS */
+.button-19 {
+    appearance: button;
+    background-color: #1899D6;
+    border: solid transparent;
+    border-radius: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: filter .2s;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+}
+
+
+.button-19:hover:not(:disabled) {
+    filter: brightness(1.2);
+}

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Haberler</title>
+    <link rel="stylesheet" href="Haberler.css">
+    <script src="Haberler.js"></script>
+</head>
+
+<body>
+    <div class="menü">
+        <!-- navbar bootstrap ile oluşturuldu bg-dark background-dark navbar-dark yazıların beyaz olmasını sağlar içerikler ortalanır ve menünün scroll bar aşağıya kaydırıldıkça yukarıda kalmasını sağlarız. -->
+        <nav class="navbar bg-dark navbar-dark navbar-expand-sm justify-content-center fixed-top">
+            <a href="#" id="logo" class="navbar-brand">LOGO</a>
+            <!-- sıkıştırılmış hamburger menünün oluşturulma kodları data target ile id aynı olmalıdır ki id içerisindeki ul listesinin açılır kapanır olmasını sağlayabilsin.  -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ilişki">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- navbarın oluşturulması listelendirilmesi -->
+            <div class="collapse navbar-collapse" id="ilişki">
+
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a href="/proje/anasayfa/anasayfa.html" class="nav-link" target="_blank">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/proje/HABERLER/Haberler.html" class="nav-link" target="_blank">Haberler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/proje/anasayfa/günlükyaşam/Günlükyaşam.html" class="nav-link" target="_blank">Günlük
+                            Yaşam</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/proje/test/testsayfa.html" target="_blank" class="nav-link">Test</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/proje/oyun/oyun.html" target="_blank" class="nav-link">Oyun</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/proje/sözlük/sözlük.html" target="_blank" class="nav-link">Sözlük</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- üye ol ve üye girişi butonlarının navbara eklenmesi ve oluşturulması renk ayarlamaları tip belirtme üye ol butonuna üye form html sayfasının aktarımı. -->
+
+            <!-- class= btn-group Elif Nur KARAGÖZ -->
+            <div class="btn-group">
+                <button class="btn btn-light" type="button"><a href="#">Üye Girişi</a></button>
+                <!-- # yerine login sayfası eklenecek. -->
+                <button class="btn btn-success" type="button"><a href="form.html" target="_blank">Üye Ol</a></button>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="row">
+        <div class="sol">
+            <!-- Deniz Kartal+Elif Nur Karagöz-->
+
+            <br>
+            <div class="covidicerik">
+                <img id="Covid" src="img/covid.png" alt="covid" />
+
+                <a href="covid.html" target="_blank"> Güncel Covid verilerini görmek için tıklayınız...</a>
+
+            </div>
+            <!-- Elif Nur Karagöz + Deniz Kartal -->
+            <br>
+            <!-- Feyza Alnıaçık + Şevval Fıçıcı -->
+            <div class="ekonomi">
+                <h2>
+                    <img id="Ekonomi" src="img/EKONOMİ.jpg" alt="ekonomi" />
+                </h2>
+            </div>
+            <br>
+            <div class="ekonomiicerik1">
+                <a href="https://www.ntv.com.tr/ekonomi/ekonomide-yeni-torba-yasa-hazirligi-kdv-duzenlemesi-yolda,Hc2lj0ijike_WReFiovKDA"
+                    target="_blank">
+                    <img id="Ekonomi1" src="img/ekonomi1.webp" alt="ekonomi1" />
+                    <h4>NTV</h4>
+                    <h3>Ekonomide yeni torba yasa hazırlığı (KDV düzenlemesi yolda)</h3>
+                    <h5>Yeni ekonomik program ve bu çerçevede alınan kararlar uygulanmaya başladı. Ancak ekonomi
+                        yönetiminin başka hazırlıkları da var. Yeni kararlar için hazırlıklar devam ediyor. Peki ne
+                        planlanıyor, ne zaman duyurulacak? İşte ayrıntılar...</h5>
+                </a>
+            </div>
+            <br>
+            <div class="ekonomiicerik2">
+                <a href="https://www.sozcu.com.tr/2021/ekonomi/dananin-kuyrugu-4-ocakta-kopar-6849563/" target="_blank">
+                    <img id="Ekonomi2" src="img/ekonomi2.jpg" alt="ekonomi2" />
+                    <h4>Sözcü Gazetesi</h4>
+                    <h3>Dananın Kuyruğu 4 Ocak’ta Kopar!</h3>
+                    <h5>Yeni yıla kurda suni bir iyileşme ile girildiğini, doların kaderinin 4 Ocak’tan sonra belli
+                        olacağını öngören Ekonomist Atilla Yeşilada, döviz korumalı mevduata geçenlerin sistemden
+                        kaçabileceğini söyledi.</h5>
+                </a>
+            </div>
+            <br>
+            <div class="ekonomiicerik3">
+                <a href="https://www.gazeteduvar.com.tr/z-kusaginin-ekonomik-krizle-imtihani-sadece-dolar-konusuyoruz-haber-1546940"
+                    target="_blank">
+                    <img id="Ekonomi3" src="img/ekonomi3.webp" alt="ekonomi3" />
+                    <h4>Duvar Gazetesi</h4>
+                    <h3>Z kuşağının ekonomik krizle imtihanı: Sadece dolar konuşuyoruz</h3>
+                    <h5>Türkiye’nin içinde bulunduğu ekonomik kriz nedeniyle Z kuşağında, gelecek kaygısı ve umutsuzluk
+                        hakim. Gençler, mevcut siyasetin kendilerine hitap etmediği konusunda da hemfikir. </h5>
+                </a>
+            </div>
+            <br>
+            <div class="kultur-sanat">
+                <img id="KulturSanat" src="img/KulturSanat.jpg" alt="kultursanat" />
+            </div>
+            <br>
+            <div class="covidicerik1">
+                <img id="Kultursanat1" src="img/KulturSanat1.jpg" alt="kultursanat1" />
+                <h3>
+                    2021 Necip Fazıl Ödülleri Sahiplerini Buldu...
+                </h3>
+                <h4>
+                    Necip Fazıl Kısakürek'in manevi ve kültürel mirasını yaşatmak amacıyla verilen 2021 Necip Fazıl
+                    Ödülleri, Atatürk Kültür Merkezi'nde düzenlenen törenle sahiplerini buldu.
+                </h4>
+                <h4>
+                    Star gazetesi tarafından Kültür ve Turizm Bakanlığı'nın desteğiyle "İnanç zaferin müjdecisidir"
+                    teması ile sunulan ödüllerin bu yıl sekizincisi düzenlendi.
+
+                    Prof. Dr. M. Fatih Andı, Prof. Dr. Hicabi Kırlangıç, Prof. Dr. Turan Karataş, Dr. Ahmet Murat Özel
+                    ve Necip Tosun'dan oluşan jüri, Türkiye'nin edebiyat ve düşünce dünyasında önemli yeri olan isimleri
+                    belirledi.
+
+                    Cumhurbaşkanı Recep Tayyip Erdoğan'ın da katıldığı törende konuşan Kültür ve Turizm Bakanı Mehmet
+                    Nuri Ersoy, Kısakürek'in şiirleri ve düşüncesiyle büyük bir etki uyandırdığına vurgu yaparak,
+                    "Düşünce alanında ortaya koyduğu eserlerle bir neslin düşünce dünyasının oluşumunda büyük etkiler
+                    yapan bir fikir adamıydı. Ancak Necip Fazıl'ın milletin kalbinde böylesine derin izler oluşturmasına
+                    neden olan özelliğinin, kendisine getirilen sınırları yeterli görmeyen, zor zamanda konuşmaktan
+                    çekinmeyen, kendi ülkesinde parya olmayı reddeden cesur bir şahsiyet olmasından kaynaklandığına
+                    inanıyorum" dedi.
+
+                    Bakan Ersoy, Kısakürek'in Çile, Bir Adam Yaratmak ve Reis Bey gibi Türk edebiyatına unutulmaz
+                    eserler bıraktığını söyleyerek, şunları kaydetti:
+
+                    "Necip Fazıl, cumhuriyet dönemimizin en üretken edebiyatçılarından biri olmuştur. Fakat o sadece bir
+                    şair değildi. O, davası olan bir şairdi. Türk- İslam düşüncesinden aldığı ilhamla nesillere dava
+                    şuuru kazandıran, şiirleriyle ruhları, düşünceleriyle de zihinleri doyuran büyük bir fikir
+                    işçisiydi. Bu yolun çilelerle dolu bir yol olduğunun o kadar bilincindeydi ki, tüm şiirlerini
+                    topladığı eserine 'Çile' adını layık gördü. Bu büyük şaire, bu ülkeye kattığı güzellikler adına
+                    müteşekkiriz. Bu nedenle üstat Necip Fazıl'ın edebi, düşünsel ve şahsi mirasının yaşatılmasına katkı
+                    sağlaması nedeniyle bu yıl sekizincisi düzenlenen Necip Fazıl Ödülleri'nde emeği geçen herkese
+                    şükranlarımı sunuyorum."
+                </h4>
+            </div>
+            <br>
+            <br>
+            <div class="covidicerik2">
+                <img id="Kultursanat2" src="img/KulturSanat2.jpg" alt="kultursanat2" />
+                <h3>
+                    Brad Pitt Müzik Sektörüne Giriyor!
+                </h3>
+                <h4>
+                    Brad Pitt, 20. yüzyılın en etkili müzisyenlerinden bazılarının kullandığı kayıt stüdyosunu yeniden
+                    canlandırıyor.
+                </h4>
+                <h4>
+                    Oyuncu; Pink Floyd, AC/DC, The Cure ve Sting tarafından kullanılan ünlü Miraval Studios’u yeniden
+                    açmak için Fransız yapımcı Damien Quintard ile birlikte çalışıyor. Miraval Studios Instagram
+                    sayfasında Quintard, kendisinin ve Pitt’in şimdiye kadarki en ikonik kayıt stüdyolarından birini
+                    yeniden tasarladıklarını söyledi: “Pink Floyd, The Cranberries, AC/DC ve daha birçokları tarafından
+                    orada kaydedilen şarkıların zamansızlığı, yakında günümüzün sanatçıları için geri dönecek.” Mülk,
+                    kayıt stüdyosuna bakan bir asma kat, bir yüzme havuzu ve ziyaret eden sanatçıların kalabileceği bir
+                    alanla donatılmış durumda.
+
+                    Quintard, stüdyonun olağanüstü bir doğal yankıya sahip olduğunu, böylece stüdyonun herhangi bir
+                    yerinde sesleri veya enstrümanların kaydedebilineceğini söylüyor. Oscar ödüllü Pitt, stüdyoyu
+                    2008’de Fransa’nın Correns kentindeki Château Miraval malikanesini, Angelina Jolie ile birlikte
+                    satın almıştı. Çiftin 2012 Jolie-Pitt & Perrin Côtes de Provence Rosé Miraval’ı, endüstri dergisi
+                    Wine Spectator tarafından en iyi gül olarak derecelendirildi. Daha sonra bir şişesi 18 sterline mal
+                    olan şarap, ilk 100 şarap listesinde 84. sırada yer aldı.
+                </h4>
+            </div>
+        </div>
+        <!-- Feyza Alnıaçık + Şevval Fıçıcı -->
+        <div class="sag">
+            <!-- Deniz Kartal -->
+            <div class="sondakika">
+                <h2>
+                    SON DAKİKA HABERLERİ
+                </h2>
+            </div>
+            <br>
+            <div class="container mt-3">
+
+                <div class="card" style="width:600px">
+                    <div>
+                        <img class="card-img-top" src="" alt="" style="width:100% " id="image">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title" id="source">John Doe</h4>
+                        <p class="card-text" id="description">Some example text some example text. John Doe is an
+                            architect
+                            and
+                            engineer</p>
+                        <a href="" target="_blank" class="btn btn-primary" id="url">Haberin detayı için tıklayınız.</a>
+                    </div>
+                </div>
+
+
+                <div class="card" style="width:600px">
+                    <div>
+                        <img class="card-img-top" src="" alt="" style="width:100% " id="image1">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title" id="source1">John Doe</h4>
+                        <p class="card-text" id="description1">Some example text some example text. John Doe is an
+                            architect
+                            and
+                            engineer</p>
+                        <a href="" target="_blank" class="btn btn-primary" id="url1">Haberin detayı için tıklayınız.</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width:600px">
+                    <div>
+                        <img class="card-img-top" src="" alt="" style="width:100% " id="image2">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title" id="source2">John Doe</h4>
+                        <p class="card-text" id="description2">Some example text some example text. John Doe is an
+                            architect
+                            and
+                            engineer</p>
+                        <a href="" target="_blank" class="btn btn-primary" id="url2">Haberin detayı için tıklayınız.</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width:600px">
+                    <div>
+                        <img class="card-img-top" src="" alt="" style="width:100% " id="image3">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title" id="source3">John Doe</h4>
+                        <p class="card-text" id="description3">Some example text some example text. John Doe is an
+                            architect
+                            and
+                            engineer</p>
+                        <a href="" target="_blank" class="btn btn-primary" id="url3">Haberin detayı için tıklayınız.</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Deniz Kartal -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

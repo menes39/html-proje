@@ -1,0 +1,295 @@
+/* Feyza Alnıaçık */
+body {
+    margin-top: 75px;
+    background-color: #E6E6FA;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#logo {
+    padding-left: 20px;
+}
+
+.btn-group {
+    padding-right: 20px;
+}
+
+.btn-group a {
+    text-decoration: none;
+    color: rgb(247, 242, 242);
+    color: black;
+}
+
+/* üstü manü css */
+
+.sag {
+    float: right;
+    width: 22%;
+    margin: 2px;
+    padding: 10px;
+}
+
+.orta {
+    float: left;
+    width: 46%;
+    margin: 2px;
+    padding: 10px;
+}
+
+.sol {
+    width: 30%;
+    float: left;
+    margin: 2px;
+    padding: 10px;
+    padding-right: 0px;
+}
+
+
+
+
+/* asalsayi css kodları başı */
+.asalsayi {
+    background-image: url("ünisayfa/asal.gif");
+    color: white;
+    border-style: solid;
+    border-color: black;
+}
+
+/* asalsayi css kodları sonu */
+
+
+/* alancevre css kodları başı */
+.alancevre {
+    background-image: url("ünisayfa/dikdörtgen.gif");
+    /* tam konumunu ver */
+    border-style: solid;
+    border-color: black;
+}
+
+#btn {
+    width: 100px;
+}
+
+/* alancevre css kodları sonu */
+
+
+/* saat css kodları başı */
+.saat {
+    background-image: url("ünisayfa/saat.gif");
+    width: 250px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.saat div {
+    border-style: solid;
+    border-color: white;
+    margin-left: 20px;
+    margin-right: 10px;
+    position: relative;
+    background-color: #ffffff;
+    height: 60%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #202020;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    letter-spacing: 3px;
+}
+
+.saat span {
+    font-weight: bolder;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+/* saat css kodları sonu */
+
+.hipotenus {
+    background-image: url("ünisayfa/hipo.gif");
+    color: white;
+    border-style: solid;
+    border-color: black;
+}
+
+.sonuc1 {
+    font-size: 10px;
+}
+
+/* sayac css kodları başlangıcı */
+.sayacmatik {
+    background-image: url("ünisayfa/sayac.jpg");
+    width: 150px;
+    height: 150px;
+    background-color: #185AD8;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    border-radius: 15px;
+    margin-left: 250px;
+}
+
+.counter {
+    font-size: 4rem;
+    font-family: sans-serif;
+}
+
+.headling {
+    font-family: sans-serif;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+    font-size: 1.2em;
+    background: white;
+    color: rgb(34, 34, 34);
+    box-shadow: 0 0 10px rgb(51, 51, 51, 0.158);
+    border: none;
+    border-radius: 50px;
+}
+
+.decr {
+    bottom: -15%;
+    right: 10%;
+}
+
+.incr {
+    bottom: 10%;
+    right: -15%;
+}
+
+/* sayac css kodları sonu */
+
+
+/* gerisayım css kodları başı */
+.gerisayim {
+    margin-left: 100px;
+}
+
+.ort {
+    width: 420px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-image: url("ünisayfa/ort.jpg");
+    position: relative;
+    margin-left: 100px;
+}
+
+#sayac {
+    margin-left: 120px;
+}
+
+#click1 {
+    width: 100px;
+}
+
+#click2 {
+    width: 100px;
+}
+
+#click3 {
+    width: 100px;
+}
+
+/* gerisayım css kodları sonu */
+
+
+/* hesap makinesinin css kodları başlangıcı */
+#container {
+    width: 300px;
+    height: 380px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    background: #5A5C68;
+}
+
+#dijital {
+    width: 270px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 15px;
+    background: #C1D798;
+}
+
+#box {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.islem {
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.tus {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 2px 6px 2px;
+    display: inline-block;
+    color: #fff;
+    background: #3D4049;
+}
+
+.tus:hover {
+    background: #6d6f77;
+}
+
+.tus2:hover {
+    background: #6d6f77;
+}
+
+.tus2 {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 2px 6px 2px;
+    display: inline-block;
+    color: #fff;
+    background: #BCC0C7;
+}
+
+#sonuc {
+    display: inline-block;
+    transform: translate(-0%, 0%);
+    font-size: 55px;
+    text-align: center;
+    width: 270px;
+}
+
+#clean {
+    background: #FF9100;
+}
+
+#clean:hover {
+    background: #ffc375;
+}
+
+/* hesap makinesinin css kodları sonu */
+
+
+
+
+/* hipotenusün butonu ile ilgili */
+#buton {
+    width: 100px;
+}

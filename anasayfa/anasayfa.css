@@ -1,0 +1,159 @@
+/* /* Elif Nur KARAGÖZ  */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+
+}
+
+
+.menü {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#logo {
+    padding-left: 20px;
+}
+
+.btn-group {
+    padding-right: 20px;
+}
+
+.btn-group a {
+    text-decoration: none;
+    color: rgb(247, 242, 242);
+    color: black;
+}
+
+.slider-conteiner {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-slide {
+    height: 100%;
+    width: 35%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform .5s ease-in-out;
+}
+
+.left-slide>div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-slide h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: -30px;
+}
+
+.right-slide {
+
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    width: 65%;
+    transition: transform .5s ease-in-out;
+}
+
+.right-slide>div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    background-color: white;
+    border: none;
+    color: grey;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15px;
+
+}
+
+button:hover {
+    color: #222;
+}
+
+button:focus {
+    outline: none;
+}
+
+.slider-conteiner .action-buttons button {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    z-index: 100;
+}
+
+.slider-conteiner .action-buttons .down-button {
+
+    transform: translateX(-100%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.slider-conteiner .action-buttons .up-button {
+
+    transform: translateY(-100%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+#haber {
+    background-color: #8F153A;
+    color: white;
+    text-align: center;
+
+}
+
+#günlük {
+    background-color: wheat;
+    color: rgb(32, 43, 13)
+}
+
+#günlük h6 {
+    text-align: center;
+}
+
+#test {
+    color: #073535;
+    background-color: #efa593;
+
+}
+
+#test h5,
+h6 {
+    text-align: center;
+}
+
+#oyun {
+    background-color: yellow;
+}
+
+#sözlük {
+    color: white;
+    background-color: rgb(2, 31, 43);
+}
